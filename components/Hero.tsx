@@ -107,7 +107,7 @@ export const Hero: React.FC = () => {
               className="hero-cta group relative text-xs font-bold uppercase tracking-widest flex items-center gap-2 overflow-hidden pb-1"
             >
               <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">{content.hero.ctaPortfolio}</span>
-              <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-2">↗</span>
+              <span className="hidden md:inline-block relative z-10 transition-transform duration-300 group-hover:translate-x-2">↗</span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-brand-dark transform scale-x-100 origin-left transition-transform duration-300 group-hover:scale-x-0"></span>
             </a>
             <a 
@@ -117,7 +117,7 @@ export const Hero: React.FC = () => {
               className="hero-cta group relative text-xs font-bold uppercase tracking-widest flex items-center gap-2 overflow-hidden pb-1"
             >
               <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">{content.hero.ctaContact}</span>
-              <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-2">↗</span>
+              <span className="hidden md:inline-block relative z-10 transition-transform duration-300 group-hover:translate-x-2">↗</span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-brand-dark transform scale-x-100 origin-left transition-transform duration-300 group-hover:scale-x-0"></span>
             </a>
           </div>

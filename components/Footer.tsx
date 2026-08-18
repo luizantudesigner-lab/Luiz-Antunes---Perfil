@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center px-10 py-5 bg-brand-light text-brand-dark font-bold uppercase tracking-widest text-sm hover:bg-brand-gray hover:text-brand-light transition-colors"
                 >
-                  {content.footer.ctaPrimary} <span className="ml-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                  {content.footer.ctaPrimary} <span className="hidden md:inline-block ml-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
                 </a>
                 <a 
                   href={links.behance}
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center px-10 py-5 border border-brand-line/30 text-brand-light font-bold uppercase tracking-widest text-sm hover:border-brand-light transition-colors"
                 >
-                  {content.footer.ctaSecondary} <span className="ml-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                  {content.footer.ctaSecondary} <span className="hidden md:inline-block ml-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
                 </a>
              </div>
           </div>

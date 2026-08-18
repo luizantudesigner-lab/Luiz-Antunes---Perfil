@@ -78,11 +78,6 @@ export const Experience: React.FC = () => {
               <div className="text-[8rem] lg:text-[12rem] font-display font-bold tracking-tighter leading-none opacity-20 transition-all duration-500">
                 {activeYear.split(' — ')[0]}
               </div>
-              {activeYear.includes('PRESENTE') && (
-                <div className="text-2xl font-display font-bold tracking-widest uppercase text-brand-gray mt-4">
-                  ATÉ O PRESENTE
-                </div>
-              )}
             </div>
           </div>
 
@@ -128,7 +123,7 @@ export const Experience: React.FC = () => {
               >
                 <span className="relative z-10">{content.experience.cta}</span>
                 <span className="w-8 h-8 rounded-full border border-brand-light flex items-center justify-center transition-colors group-hover:bg-brand-light group-hover:text-brand-dark">
-                  <span className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                  <span className="hidden md:inline-block transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
                 </span>
               </a>
             </div>
